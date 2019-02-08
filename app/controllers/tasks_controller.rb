@@ -49,6 +49,6 @@ class TasksController < ApplicationController
   
   # Strong Parameter
   def task_params
-    params.require(:task).permit(:content, :status)
+    params.require(:task).permit(:content)
   end
 end
